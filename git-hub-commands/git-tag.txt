@@ -1,0 +1,22 @@
+*git tag :-tagging like most vc's, git has the ability to tag specific point in a repository histories has being
+           important. typically peoples use this functionality to mark release point (v1.0) (v2.0) and so on.
+           in this section, you will learn how to existing tags, how to create and delete tags and what the different
+           types of tags are.
+
+Command :- git tag -a (annotation) --m (some msg)
+
+  we can also view all the tags you have assigned tags.
+
+Command :-git tag  {to show the all tags}
+
+*How to the tags ?
+ git push --tags   
+ 
+
+*git cherry-pick :-Apply the changes introduced by some existing commands
+
+Command :-git cherry-pick (commit id)
+
+git cherry-pick in git means choosing a commit from one branch to another branch
+
+*squash :-can integrates the changes from one branch to another branch
