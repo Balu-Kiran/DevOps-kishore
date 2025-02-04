@@ -1,0 +1,81 @@
+
+
+Configuration:-
+
+Things to keep in mind before changing configurational changes :-
+
+1.Where to change
+2.Backup
+3.How to change
+4.Try ( or ) experiment in local environment
+5.Documentation
+======================================================================================================================
+
+Snapshot / Backup :-
+ *server.xml_history ( this will have the snapshot )
+For wildfly - configuration --> Home folder of wildfly --> standalone --> configuration --> standalone.xml_history
+
+File name : Standlone.v1
+eg:-port number change 
+standalone-port change.v2 
+Need to rename the original or existed different status of the artifacts deployed in wildfly . In wildfly deployed artifacts can have various 
+ststaus ststess including 
+
+
+Key Deployment Status in WildFly:
+Deployed:
+The application is successfully deployed and running on the WildFly server.
+ 
+Undeployed:
+The application has been removed from the server and is not currently running. 
+Deployment process encountered an error and the application is not running.
+ 
+Starting:
+The application is currently being initialized and is not yet fully available.
+ 
+Stopping:
+The application is in the process of being gracefully shut down.
+ 
+Suspended:
+The application is temporarily paused and not actively processing requests.
+ 
+Redeploying:
+An existing deployed application is being updated with new code and re-deployed.
+ 
+How to Check Deployment Status:
+WildFly Management Console: Access the WildFly management console through a web interface to view the deployment status of all applications.
+Command Line: Use the WildFly CLI to query the status of individual deployments. 
+
+Accessing deployment status:
+ 
+wild fly management console:
+ 
+you can view the status of deployed artifacts through the wildfly admin console which provides a list of deployments with their current state.
+ 
+CLI(command Line Interface):
+
+using the wildfly command-line interface you can query the status of deployments with management commands
+ 
+indicating whether the application is currently running not deployed encountered an error during deployment,intentionally de activated temporarily paused or is in the process
+
+of being redeployed with updates
+
+Domain & host controller in wildfly :-
+
+In JBoss WildFly, a "domain controller" acts as the central management point for a group of servers within a domain, overseeing configuration changes and ensuring consistency across all servers, while a "host controller" is responsible for managing the individual application server instances running on a specific host machine, communicating with the domain controller to apply configuration updates and start/stop server processes on that host. 
+
+Key points about domain and host controllers:
+
+Domain controller:- *Acts as the contral manager points for the entire domain 
+                   *Stores and domain wide configuration in a file called "domain.xml"
+                  (Home folder -->domain -->configuration -->domain.xml)
+                   *Respondible for distributing configuration changes to all host controllers within the domain 
+
+Host controller:- *manages the application server instances running on a specific host 
+                  *Read its configuration from a host.xml file specific to that host 
+                 (Home folder -->domain -->configuration -->host.xml)
+                  *Communicates with the domain controller to receive configuration updates and start/stop server instances 
+
+  { Domaion is represented to master centralised "DCHC" where we can manage other wildfly serves
+
+
