@@ -11,10 +11,6 @@ once as a administrator change the password again you need to inform to the user
 
 once logged in to user Jenkins Gul click on username(top right corner) click on security there you can change the password click on submit
 
-2)what if Jenkins administrator forget the password?(task)
-
-If a Jenkins administrator forgets the password, they can reset it using one of the following methods:
-
 Method 1: Reset via CLI (If Available)
 
 Method 2: Delete the Admin Password from config.xml
