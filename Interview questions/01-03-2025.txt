@@ -1,0 +1,31 @@
+1. Do you know why Jenkins is used ?
+2. What is git brach ?
+3. What is branching strategy in git ?
+4. Git life cycle ?
+5. What git add does ?
+6. How can yo add the partcular files in staging area ?
+7. why we are giving msg in comming stage ?
+8. adaifference b/w fetch and pull ?
+9. What is maven ?
+10. Which application it builds ?
+11. What do you mean by arrtifact ?
+12. Explain about maven life cycle ?
+13. What is .m2 folder ?
+14. What is war file and jar file ?
+15. What do you know about Apache tomcat ?
+16. In which folder youw  will deploy ?
+17. What is the user of jar file ?
+18.What is the command to know the processes are running ?
+19. Tell me few linux commands ?
+20. How you create directory ?
+21. The command to create branch and checkout to that branch ?
+22. Do you know it rebase ? what it does ?
+23. How to run the Apche tomcat server ?
+24. How to stop ?
+25. What are the build triggers in jenkins ?
+26. What are the uses of plugins ?
+27. How many ways we download the pugins ?
+28. How to download in manual way ?
+29. How to change the port number on jenkins ?
+30. how to reset the password ?
+31. What is git reset & git restore ? 
