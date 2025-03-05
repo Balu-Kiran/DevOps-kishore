@@ -1,5 +1,5 @@
 1. Do you know why Jenkins is used ?
-2. What is git brach ?
+2. What is git branch ?
 3. What is branching strategy in git ?
 4. Git life cycle ?
 5. What git add does ?
