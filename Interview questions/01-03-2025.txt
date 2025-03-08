@@ -1,11 +1,11 @@
 1. Do you know why Jenkins is used ?
-2. What is git brach ?
+2. What is git branch ?
 3. What is branching strategy in git ?
 4. Git life cycle ?
 5. What git add does ?
 6. How can yo add the partcular files in staging area ?
 7. why we are giving msg in comming stage ?
-8. adaifference b/w fetch and pull ?
+8. difference b/w fetch and pull ?
 9. What is maven ?
 10. Which application it builds ?
 11. What do you mean by arrtifact ?
